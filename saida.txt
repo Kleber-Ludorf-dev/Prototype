@@ -1,0 +1,12 @@
+Pedido #1 | (modelo) | - | itens=3 | total=R$ 315,00
+Pedido #2 | Mercado Central | Rua das Flores, 120 | itens=3 | total=R$ 315,00
+Pedido #3 | Padaria Boa Massa | Av. Paraná, 800 | itens=3 | total=R$ 504,00
+Pedido #4 | Restaurante do Porto | Rua do Cais, 45 | itens=4 | total=R$ 387,00
+
+CA-01 Os quatro pedidos possuem ids diferentes: OK
+CA-02 O total do modelo continua R$ 315,00: OK
+CA-03 Totais: A = 315,00; B = 504,00; C = 387,00: OK
+CA-04 O modelo continua com 3 itens: OK
+CA-05 Nenhum item das cópias é o mesmo objeto do modelo: OK
+CA-06 criar("inexistente") lança IllegalArgumentException: OK
+CA-07 O cliente do modelo permanece "(modelo)": OK
